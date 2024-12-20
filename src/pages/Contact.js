@@ -38,20 +38,19 @@ const Contact = () => {
           <div className="address">
             <div className="content">
               <h4>adresse</h4>
-              <p>Quartier La Poterie</p>
-              <p>35200 Rennes</p>
+              <p>35 000 Rennes</p>
             </div>
           </div>
           <div className="phone">
             <div className="content">
               <h4>téléphone</h4>
-              <CopyToClipboard text="0648652868" className="hover">
+              <CopyToClipboard text="0612345678" className="hover">
                 <p
                   style={{ cursor: "pointer" }}
                   className="clipboard"
                   onClick={() => alert("Téléphone copié !")}
                 >
-                  06 48 65 28 68
+                  06 12 34 56 78
                 </p>
               </CopyToClipboard>
             </div>
@@ -60,7 +59,7 @@ const Contact = () => {
             <div className="content">
               <h4>email</h4>
               <CopyToClipboard
-                text="makstinyworkshop@gmail.com"
+                text="contact@dinodev.me"
                 className="hover"
               >
                 <p
@@ -68,7 +67,7 @@ const Contact = () => {
                   className="clipboard"
                   onClick={() => alert("Email copié !")}
                 >
-                  makstinyworkshop@gmail.com
+                  contact@dinodev.me
                 </p>
               </CopyToClipboard>
             </div>

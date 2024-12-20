@@ -5,7 +5,7 @@ export const projectsData = [
     date: "Janvier 2022",
     languages: ["UI", "React", "Sass"],
     infos:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas cumque labore suscipit, pariatur laboriosam autem omnis saepe quisquam enim iste.",
+      "Copie d'un site de e-commerce et de son interface.",
     img: "./assets/img/projet-2.jpg",
     link: "http://www.google.com",
   },
@@ -13,9 +13,9 @@ export const projectsData = [
     id: 2,
     title: "Lyon Béton",
     date: "Mars 2022",
-    languages: ["UI", "HTML/CSS"],
+    languages: ["UI", "HTML/CSS", "GSAP"],
     infos:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas cumque labore suscipit, pariatur laboriosam autem omnis saepe quisquam enim iste.",
+      "Refonte d'ensemble du site de Lyon Béton (entrainement/ pas de production).",
     img: "./assets/img/projet-1.jpg",
     link: "http://www.google.com",
   },
@@ -25,18 +25,18 @@ export const projectsData = [
     date: "Avril 2022",
     languages: ["Wordpress", "Sass", "React"],
     infos:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas cumque labore suscipit, pariatur laboriosam autem omnis saepe quisquam enim iste.",
+      "Recopie du blog d'un photographe pour augmenter mes connaissances.",
     img: "./assets/img/projet-3.jpg",
     link: "http://www.google.com",
   },
   {
     id: 4,
-    title: "Creative Dev",
-    date: "Juillet 2022",
-    languages: ["UI", "React", "Sass"],
+    title: "PortFolio V2",
+    date: "Depuis 2023",
+    languages: ["Astro", "React", "UI"],
     infos:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas cumque labore suscipit, pariatur laboriosam autem omnis saepe quisquam enim iste.",
-    img: "./assets/img/projet-4.jpg",
-    link: "http://www.google.com",
+      "Refonte totale de mon portfolio pour une interface plus sobre et cohérente, moins d'animations",
+    img: "./assets/img/projet-4.jpeg",
+    link: "https://dinodev.me",
   },
 ];
