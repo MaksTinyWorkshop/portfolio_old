@@ -12,7 +12,7 @@ import { AnimatePresence } from "framer-motion";
 
 const App = () => {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/portfolio_old">
       <AnimatePresence>
         <Routes>
           <Route path="/" element={<Home />} />
@@ -23,6 +23,7 @@ const App = () => {
           <Route path="/projet-4" element={<Project4 />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="*" element={<NotFound />} />
+
         </Routes>
       </AnimatePresence>
     </BrowserRouter>
